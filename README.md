@@ -1,6 +1,20 @@
-
-
 # AngularWorkshop
+
+## Setup for project
+
+1. Install NX via command line `npm install -g nx`
+2. Install Angular via command line `npm install -g @angular/cli`
+3. Install the dependencies for this repo via command line `npm install`
+
+(Any text editor will do, I use VsCode...)
+
+## Starting the project
+
+Run the command `npm run start:angular-workshop`
+
+##
+
+# Default Generated Readme Info from NX -----------------------------------------------------------------
 
 This project was generated using [Nx](https://nx.dev).
 
@@ -86,11 +100,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
-
-
-
-
-
 
 ## ☁ Nx Cloud
 
