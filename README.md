@@ -10,7 +10,20 @@
 
 ## Starting the project
 
-Run the command `npm run start:angular-workshop`
+- Run the command `npm run start:angular-workshop`
+- Once the projects are up and running you will be able access the Angular app via `http://localhost:4200`
+- The api should also be available on the endpoint `http://localhost:3333/api`
+
+## Api Endpoints
+
+- `/books` -> will return an array of book objects
+- `/books/{id} ` -> will return a specific book with the id specified
+
+## Useful resources
+
+- Bootstrap styling will be available throughout the project https://getbootstrap.com/docs/5.0/getting-started/introduction/
+- Angular docs should provide mostly all the info needed to setup the components correctly https://angular.io/guide/component-overview
+- Any issues or questions feel free to bring them up in the call!
 
 ##
 
