@@ -9,8 +9,8 @@ export class AppService {
     return this.books;
   }
 
-  getBook(id): book {
-    const book = this.books.find((i) => i.id === id);
+  getBook(id: number): book {
+    const book = this.books.find((bookEl) => bookEl.id == id);
     if (book) {
       return book;
     }
